@@ -6,8 +6,9 @@
  * Return: int
  */
 
-int check_cycle(listint_t *)
+int check_cycle(listint_t *list)
 {
+
 listint_t *turtle = list, *hare = list;
 
 while (turtle != NULL && hare != NULL & hare->next != NULL)
