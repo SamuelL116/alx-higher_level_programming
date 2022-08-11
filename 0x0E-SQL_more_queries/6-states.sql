@@ -7,7 +7,7 @@ CREATE DATABASE IF NOT EXISTS `hbtn_0d_usa`;
 -- id INT unique, auto generated, can’t be null and is a primary key
 -- name VARCHAR(256) can’t be null
 -- If the table states already exists, your script should not fail
-CREATE TABLE IN NOT EXISTS
-    `hbtn_0d_usa`.`states`(`id` INT UNIQUE AUTO_INCREMENT NOT NULL,
+CREATE TABLE IF NOT EXISTS `hbtn_0d_usa`.`states`
+    (`id` INT UNIQUE AUTO_INCREMENT NOT NULL,
     `name` VARCHAR(256) NOT NULL,
-     PRIMARY KEY(`id`));
+    PRIMARY KEY(`id`));
