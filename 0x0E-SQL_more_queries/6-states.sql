@@ -1,7 +1,7 @@
 -- creates the database hbtn_0d_usa
 -- If the database hbtn_0d_usa already exists, your script should not fail
 
-CREATE DATABASE IF NOT EXISTS hbtn_0d_usa
+CREATE DATABASE IF NOT EXISTS hbtn_0d_usa;
 
 -- creates the the table states (in the database hbtn_0d_usa) on your MySQL server.
 -- states description:
