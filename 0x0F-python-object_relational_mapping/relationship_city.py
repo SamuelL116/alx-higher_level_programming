@@ -6,6 +6,7 @@ from sqlalchemy import Column, Integer, String, ForeignKey
 
 Base = declarative_base()
 
+
 class City(Base):
     """Class City"""
 
